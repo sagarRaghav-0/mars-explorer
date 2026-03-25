@@ -121,10 +121,27 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
   }
 }
+
+@keyframes moveDiagonal {
+  0% {
+    transform: translate(-120%, 35vh);
+  }
+
+  100% {
+    transform: translate(calc(50vw - 100px),
+        calc(50vh - 100px));
+  }
+}
+
+/* .animate-rover {
+    animation: moveDiagonal 8s ease-out forwards;
+  } */
