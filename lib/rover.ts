@@ -5,7 +5,7 @@ export const roverMap = {
     },
     opportunity: {
         name: "Opportunity",
-        img: "/Opportunity.webp",
+        img: "/opportunity.webp",
     },
     spirit: {
         name: "Spirit",
